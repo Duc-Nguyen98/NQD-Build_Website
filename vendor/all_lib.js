@@ -24,15 +24,15 @@
 
 	// link javascript	
 	var imported = document.createElement('script');
-	imported.src = 'jquery.min.js';
+	imported.src = './vendor/jquery.min.js';
 	document.head.appendChild(imported);
 
 	var imported_2 = document.createElement('script');
-	imported_2.src = 'popper.min.js';
+	imported_2.src = './vendor/popper.min.js';
 	document.head.appendChild(imported_2);
 
 	var imported_3 = document.createElement('script');
-	imported_3.src = 'bootstrap.min.js';
+	imported_3.src = './vendor/bootstrap.min.js';
 	document.head.appendChild(imported_3);
 
 	alert("chào cậu");
